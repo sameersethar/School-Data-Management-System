@@ -195,11 +195,11 @@ void update() {
 	    }
 	}
 	if (!found) {
-        cout<<"\nThis Roll Number is not in our School Data\n";
+        cout<<"\nThis Roll Number is not in School Database\n";
     }
 }
 
-void delet() {
+void delete() {
 	system("color 0e");
 	int a; string rollnum; 
 	bool found = false;
