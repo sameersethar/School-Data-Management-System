@@ -42,7 +42,7 @@ int main () {
             if(cin.fail() || value<=0 || value>6 ) {
                 cin.clear(); 
                 cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
-                cout<<endl<<"Invalid input! Please enter a Number (1 to 6)."<<endl<<endl;
+                cout<<endl<<"Invalid input! Please enter a Valid Number (1 to 6)."<<endl<<endl;
             } 
 			else{
             	break; // Exit loop if valid input is entered
@@ -64,7 +64,7 @@ int main () {
 				update();
 				break;
 			case 5:
-		 		delet();
+		 		delete();
 				break;			
 			case 6:
 				return 0;
