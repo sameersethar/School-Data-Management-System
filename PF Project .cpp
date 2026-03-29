@@ -15,9 +15,9 @@ int main () {
 	
 	
 		 for(int i=1;i<47;i++){cout<<"-";}
-		 cout<<endl<<"|  SCHOOL DATA MANAGEMENT SYSTEM OF STUDENT  |"<<endl;
+		 cout<<endl<<"|  SCHOOL DATA MANAGEMENT SYSTEM  |"<<endl;
 		 for(int i=1;i<47;i++){cout<<"-";}
-		 cout<<endl<<"\nNOTE: First You have to Provide/Enter Data of\n      Student Otherwise Project won't' work\n"<<endl;
+		 cout<<endl<<"\nNOTE: First You have to Provide/Enter Data of\n      Students Otherwise Project won't' work\n"<<endl;
 		 for(int i=1;i<47;i++){cout<<"-";}
 		 cout<<endl;
 
@@ -28,7 +28,7 @@ int main () {
 		do{
 	
 	
-		cout<<"\nPress 1 to Enter Data "<<endl;
+		cout<<"\nPress 1 to Add Data "<<endl;
 		cout<<"Press 2 to Show Data "<<endl;
 		cout<<"Press 3 to Search Data "<<endl;
 		cout<<"Press 4 to Update Data "<<endl;
