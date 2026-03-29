@@ -69,7 +69,7 @@ int main () {
 			case 6:
 				return 0;
 			default:
-				cout<<"Invalid Input, please try";	
+				cout<<"Invalid Input, please try again";	
 		}   		
 		
 	}while (true);
